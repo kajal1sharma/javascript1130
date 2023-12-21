@@ -1,3 +1,16 @@
+// ternary operator
+// boolean expression ? "red" :  "yellow"
+let  num=89;
+
+let a  = num%2 ==0 ? "even":"odd"
+console.log(a);
+
+// let a = num==90 ? "red" :"yellow"
+// console.log(a)
+
+// take an input from prompt and check ,number is odd or even ternary operator
+
+
 // conditional statements
 // if- else
 
@@ -16,20 +29,60 @@
 // take as input three sides of triangle and check if it can form a triangle or not
 // sum of any two sides > third side 
 
-let a = prompt("enter first side")
-a=parseInt(a)
-let b = prompt("enter second side")
-b=Number(b)
-let c = prompt("enter third side")
-c=Number(c)
+// let a = prompt("enter first side")
+// a=parseInt(a)
+// let b = prompt("enter second side")
+// b=Number(b)
+// let c = prompt("enter third side")
+// c=Number(c)
 
 
-if((a+b) > c  &&  (a+c)>b  && (c+b)> a){
-    console.log("traingle can be formed")
-}
-else{
-    console.log("traingle cannot be formed")
-}
+// if(!((a+b) > c  &&  (a+c)>b  && (c+b)> a)){
+//     console.log("not a trianlge")
+// }
+// else if((a==b && b==c)){
+//     console.log("equilateral")
+// }
+// else if((a!=b && b!=c && c!=a)){
+//     console.log("scalene")
+// }
+// else{
+//     console.log("isosceles")
+// }
+
+
+
+// if(((a+b) > c  &&  (a+c)>b  && (c+b)> a) && (a==b && b==c) ){
+//     console.log("euilateral traibgle")
+// }
+// else if(((a+b) > c  &&  (a+c)>b  && (c+b)> a) && (a!=b && b!=c && c!=a)){
+//     console.log("scaler trianglr")
+// }
+// else if(((a+b) > c  &&  (a+c)>b  && (c+b)> a) &&  (a==b || b==c || c==a)){
+//     console.log("isosceles triangle")
+// }
+// else{
+//     console.log("not a triangle")
+// }
+
+
+// if((a+b) > c  &&  (a+c)>b  && (c+b)> a){
+//     console.log("traingle can be formed")
+//     if(a==b && b==c){
+//         console.log("equilateral traingle")
+
+//     }
+//     else if(a!=b && b!=c && c!=a){
+//         console.log("scaler trianlge")
+//     }
+//     else{
+//         console.log("isosceles triangle")
+//     }
+
+// }
+// else{
+//     console.log("traingle cannot be formed")
+// }
 
 // let side1 = prompt("enter side 1")
 // let side2 = prompt("enter side 2")
