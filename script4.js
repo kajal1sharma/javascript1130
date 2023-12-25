@@ -1,15 +1,15 @@
 // falsy values
 // "" undefined null NAN 0 -0 0n -0n false
 
-let value=90;
-switch(false){
-    case value<50:console.log("less than 50");
-                    break;
-    case value>50:console.log("more than 50");
-                    break;
+// let value=90;
+// switch(false){
+//     case value<50:console.log("less than 50");
+//                     break;
+//     case value>50:console.log("more than 50");
+//                     break;
    
-    default:console.log("invalid")
-}
+//     default:console.log("invalid")
+// }
 
 
 
