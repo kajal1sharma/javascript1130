@@ -23,6 +23,13 @@
 // }
 
 
+// for(let i=1;i<=100; i++){
+//     if(i%3 ==0 && i%5 == 0){
+//         console.log(i);
+//     }
+// }
+
+
 // let i;
 // for(i = 1;i<5;i=i+2){
 //     console.log("hello world" + i);
@@ -36,3 +43,8 @@
 
 // console.log("hello world "+3)
 
+
+for(let i =1 ; i<=10 ;i++){
+    let str = "7 * "+i+" = "+ i*7
+    console.log(str)
+}
