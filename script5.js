@@ -10,26 +10,47 @@
 // }while(condition);
 
 
-let choice;
-do{
-    let ch =prompt("enter + ,  - , * , /");
-    let num1 = Number(prompt("enter number one"))
-    let num2 =Number(prompt("enter number two"))
-    switch(ch){
-        case '+':alert(num1+num2);
-                break;
 
-        case '-':alert(num1-num2);
-                break;
-        case '*':alert(num1*num2);
-                break;
-        case '/':alert(num1/num2);
-                break;
-        default : alert("Invalid choice")
-    }
+for(let choice  ='1';choice=='1';choice = prompt("enter 1 to continue")){
+        
+        let ch =prompt("enter + ,  - , * , /");
+        let num1 = Number(prompt("enter number one"))
+        let num2 =Number(prompt("enter number two"))
+        switch(ch){
+            case '+':alert(num1+num2);
+                    break;
     
-    choice = prompt("enter 1 to continue");
-}while(choice =='1');
+            case '-':alert(num1-num2);
+                    break;
+            case '*':alert(num1*num2);
+                    break;
+            case '/':alert(num1/num2);
+                    break;
+            default : alert("Invalid choice")
+        }
+}
+
+
+// let choice;
+// do{
+//     let ch =prompt("enter + ,  - , * , /");
+//     let num1 = Number(prompt("enter number one"))
+//     let num2 =Number(prompt("enter number two"))
+//     switch(ch){
+//         case '+':alert(num1+num2);
+//                 break;
+
+//         case '-':alert(num1-num2);
+//                 break;
+//         case '*':alert(num1*num2);
+//                 break;
+//         case '/':alert(num1/num2);
+//                 break;
+//         default : alert("Invalid choice")
+//     }
+    
+//     choice = prompt("enter 1 to continue");
+// }while(choice =='1');
 
 console.log("okay this is it")
 
