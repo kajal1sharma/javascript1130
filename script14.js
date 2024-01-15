@@ -1,24 +1,52 @@
 console.log("script 14")
 
 
-function getName(){
-    console.log(this)
-}
-getName()
-phone="88888"
-name="nitu"
+// function getName(){
+//     console.log(this)
+// }
+// getName()
+// phone="88888"
+// name="nitu"
 
-let obj = {
-    name:"tina",
-    phone:"923492374",
-    getInfo:()=>{
-                console.log(this)
-                console.log(this.name)
-                console.log(this.phone)
-            }
+let obj1 ={name:"abc", marks:78}
+let obj2= {name:"xyz", marks:697}
+let obj3= {name:"pqr", marks:36}
+
+function getInfo(){
+    console.log(this.name+"  "+this.marks)
 }
 
-obj.getInfo()
+let gI1 = getInfo.bind(obj1)
+gI1()
+
+let gI2 = getInfo.bind(obj2)
+gI2()
+
+let gI3 = getInfo.bind(obj3)
+gI3()
+
+getInfo()
+
+// let person ={
+//     name:"ritu",
+//     phone:"2932384"
+// }
+// let obj = {
+//     name:"tina",
+//     phone:"923492374",
+//     getInfo:function(){
+//                 console.log(this)
+//                 console.log(this.name)
+//                 console.log(this.phone)
+//             }
+// }
+
+// let fn1 = obj.getInfo.bind(person);
+// fn1()
+// fn1()
+// fn1()
+// obj.getInfo()
+// obj.getInfo()
 
 // console.log(this)
 // function print(){
