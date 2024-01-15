@@ -59,6 +59,10 @@ let add2 = (a,b)=>{
 let sum2 = add2(12,13);
 console.log(sum2)
 
+let wish = name=>"happy birthday "+name
+let str = wish("tina")
+console.log(str)
+
 
 
 
