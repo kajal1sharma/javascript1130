@@ -1,10 +1,10 @@
-// function expresssion
+d// function expresssion
 
 let print = function(){
                 console.log("hello world")
             }
 
-            console.log(print)
+console.log(typeof print)
 print();
 
 let greeting = function abc(){
