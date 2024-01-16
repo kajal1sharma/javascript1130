@@ -38,24 +38,38 @@
 // getInfoSt2()
 
 
-function doSomething(fn){
-    console.log("hello world")
-    //console.log(fn)
-     fn();
+// function doSomething(fn){
+//     console.log("hello world")
+//     //console.log(fn)
+//      fn();
+// }
+// function eat(){
+//     console.log("lets eat somethoing")
+//     return 10
+// }
+// function read(){
+//     console.log("i read a lot of books")
+// }
+// doSomething(eat)//
+// doSomething(eat())
+// doSomething(read)
+
+let obj= {
+    doSomething: function(fn){
+        fn()
+    },
+    doSomething2:function(fn){
+        console.log("hello world-----")
+        fn()
+    }
 }
-function eat(){
-    console.log("lets eat somethoing")
-    return 10
+
+
+function print(){
+    console.log("hello wrold")
 }
-function read(){
-    console.log("i read a lot of books")
-}
-doSomething(eat)
-doSomething(read)
-
-
-
-
+obj.doSomething(print)
+obj.doSomething2(print)
 
 
 
