@@ -54,22 +54,22 @@
 // doSomething(eat())
 // doSomething(read)
 
-let obj= {
-    doSomething: function(fn){
-        fn()
-    },
-    doSomething2:function(fn){
-        console.log("hello world-----")
-        fn()
-    }
-}
+// let obj= {
+//     doSomething: function(fn){
+//         fn()
+//     },
+//     doSomething2:function(fn){
+//         console.log("hello world-----")
+//         fn()
+//     }
+// }
 
 
-function print(){
-    console.log("hello wrold")
-}
-obj.doSomething(print)
-obj.doSomething2(print)
+// function print(){
+//     console.log("hello wrold")
+// }
+// obj.doSomething(print)
+// obj.doSomething2(print)
 
 
 
