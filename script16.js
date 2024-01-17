@@ -1,12 +1,20 @@
 
-let arr =[1,2,3,4,5];
+let arr =["1","2","3","4","5"];
 
+arr.entries
+
+let res= arr.concat([3,4,5],["r",":","ghf"])
+console.log(res)
+console.log(arr)
 // push pop, shift and unshift
 
-let length= arr.unshift(34,45,67);
+// let length= arr.unshift(34,45,67);
 
-console.log(length)
-console.log(arr)
+// console.log(length)
+// console.log(arr)
+
+
+
 
 // let ele=arr.shift();
 // console.log(ele)
