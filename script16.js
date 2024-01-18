@@ -1,11 +1,30 @@
 
 let arr =["1","2","3","4","5"];
 
-arr.entries
+let entry = arr.entries()
 
-let res= arr.concat([3,4,5],["r",":","ghf"])
-console.log(res)
-console.log(arr)
+
+console.log(entry.next().value)
+console.log(entry.next().value)
+console.log(entry.next().value)
+//code
+
+
+console.log(entry.next().value)
+// console.log(entry)
+
+
+// arr.slice()
+// arr.splice()
+
+
+
+
+
+
+// let res= arr.concat([3,4,5],["r",":","ghf"])
+// console.log(res)
+// console.log(arr)
 // push pop, shift and unshift
 
 // let length= arr.unshift(34,45,67);
