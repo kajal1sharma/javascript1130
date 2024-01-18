@@ -1,9 +1,19 @@
-
+// let length = 4;
+//  function callback(){
+//     console.log(this.length);
+//  }
+//  const object1 = {
+//      length: 5,
+//      method(callback){
+//         callback();
+//      },
+//  }
+//  object1.method(callback,1,2);
 
 // Q=> suppose you have a string array 
 //     find out the length 
 
-let names =["rita", "sita", "ram","shyam", "laxman"]
+// let names =["rita", "sita", "ram","shyam", "laxman"]
 
 // function print(ele){
 //     console.log(ele+" " +ele.length)
@@ -12,9 +22,9 @@ let names =["rita", "sita", "ram","shyam", "laxman"]
 // names.forEach(function(ele){
 //     console.log(ele+" " +ele.length)
 // })
-names.forEach((ele)=>{
-    console.log(ele+" " +ele.length)
-})
+// names.forEach((ele)=>{
+//     console.log(ele+" " +ele.length)
+// })
 
 // let num = [1,2,3,4,5,6,7,8,9]
 
