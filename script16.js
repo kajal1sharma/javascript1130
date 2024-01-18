@@ -56,24 +56,24 @@ console.log(entry.next().value)
 // console.log(arr)
 
 
-// let obj ={
-//   arr:[12,22,13,14,51,62],
-//  push:function(ele){
-// //  task performed
-//  },
-//   getIndexValue:function(index){
-//                     return this.arr[index];
-//                 } ,
-//   getLength : function(){
-//                     return this.arr.length;
-//                 } ,
-//   abc :function(fn){
+let obj ={
+  arr:[12,22,13,14,51,62],
+ push:function(ele){
+//  task performed
+ },
+  getIndexValue:function(index){
+                    return this.arr[index];
+                } ,
+  getLength : function(){
+                    return this.arr.length;
+                } ,
+  foreach :function(fn){
 
-//                 for(let i =0 ;i< this.arr.length;i++){
-//                     fn(this.arr[i])
-//                 }
-//             }
-// }
+                for(let i =0 ;i< this.arr.length;i++){
+                    fn(this.arr[i])
+                }
+            }
+}
 
 // function print(ele){
 //     console.log(ele+"=====");

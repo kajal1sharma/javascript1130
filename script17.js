@@ -1,10 +1,40 @@
 
+
+// Q=> suppose you have a string array 
+//     find out the length 
+
 let names =["rita", "sita", "ram","shyam", "laxman"]
 
+// function print(ele){
+//     console.log(ele+" " +ele.length)
+// }
 
-let arr = names.splice(1, 2,"abc","pqr","xyz");
-console.log(names)
-console.log(arr)
+// names.forEach(function(ele){
+//     console.log(ele+" " +ele.length)
+// })
+names.forEach((ele)=>{
+    console.log(ele+" " +ele.length)
+})
+
+// let num = [1,2,3,4,5,6,7,8,9]
+
+// // traversing
+// function evenOdd(ele){
+//     if(ele%2==0){
+//         console.log(ele+ " is even")
+//     }
+//     else{
+//         console.log(ele+ " is odd")
+//     }
+// }
+
+// num.forEach(evenOdd)
+
+
+
+// let arr = names.splice(1, 2,"abc","pqr","xyz");
+// console.log(names)
+// console.log(arr)
 
 
 
