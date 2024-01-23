@@ -70,7 +70,7 @@ let obj ={
   foreach :function(fn){
 
                 for(let i =0 ;i< this.arr.length;i++){
-                    fn(this.arr[i])
+              fn(this.arr[i], i,this.arr)
                 }
             }
 }
