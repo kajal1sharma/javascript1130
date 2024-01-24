@@ -43,14 +43,50 @@ console.log("hello world...")
 // })
 
 
-let  arr =[11,22,53,14,15,56,37]
+// let  arr =[11,22,53,14,15,56,37]
+
+// let finalarr = arr.filter(function(ele){
+//     if(ele%2==0){
+//         return ele
+//     }
+// })
+
+// console.log(finalarr)
+
+let strarr=["one","two","three","four","five"]
+
+let res=strarr.filter(function(ele){
+    return ele.length>=4
+    // if(ele.length>=4){
+    //     return ele
+    // }
+})
+
+console.log(strarr)
+console.log(res)
+
+// every
 
 
-let max =arr.reduce(function(prev, curr){
-    return prev<curr?curr:prev
-},-99999)
+// strarr => str=> 5 
 
-console.log(max)
+
+// let max =arr.reduce(function(prev, curr){
+//     return prev<curr?curr:prev
+// },-Infinity)
+
+// console.log(max)
+
+
+// let result1 = num1.reduce((max,el)=>{
+//     if(el>max){
+//         return el;
+//     }
+//     else {
+//         return max;
+//     }
+// });
+
 
 // string 
 
