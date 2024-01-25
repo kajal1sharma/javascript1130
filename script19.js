@@ -93,7 +93,7 @@ console.log(result)
 //  console.log(arr)
 //  in place
 
-arr.sort()
+arr.sort();
 
 // let arr =[1,5,6,7,2,5]
 // let result = arr.join(",");
