@@ -1,10 +1,21 @@
 //template
 
 //constructor fnction => create and object of 
-function Person(){
-    this.name="reena"
-    this.phone="1221323"
-    this.age=23
+// function Person(){
+//     this.name="reena"
+//     this.phone="1221323"
+//     this.age=23
+//     this.getInfo=function(){
+//                 console.log(this.name)
+//                 console.log(this.age)
+//                 console.log(this.phone)
+//             }
+// }
+
+function Person(name, phone, age){
+    this.name=name
+    this.phone=phone
+    this.age=age
     this.getInfo=function(){
                 console.log(this.name)
                 console.log(this.age)
@@ -12,12 +23,14 @@ function Person(){
             }
 }
 
-let obj  = new Person()
-let obj2 = new Person()
-obj.name="tina"
+let obj  = new Person("reena","234234",34)
+let obj2 = new Person("tina", "576867",12)
+let obj3= new Person("seema", "3454354",78)
+// obj2.phone="655643"
+// obj.name="tina"
 
-console.log(obj)
-console.log(obj2)
+console.log(obj, obj2, obj3)
+// console.log(obj2)
 // objects
 
 //Singleton object
