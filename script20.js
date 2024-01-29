@@ -1,3 +1,33 @@
+let a = (...arr) => {
+    let _b = (x, y) => (!y ? x : a(y, x % y));
+    return [...arr].reduce((a, b) => _b(a, b));
+  }
+
+
+  let num1 =480
+  let num2= 360
+  console.log(`The Common factor  = `,(a(360, 480)));
+
+// let arr=[1,2,3,4,534]
+
+// let brr =[...arr]//copy 
+// brr[3]=345345;
+
+// console.log(arr)
+// console.log(brr)
+
+
+
+// function print(...arr){
+
+//     console.log(arr)
+//     arr.forEach(function(ele){
+//         console.log(ele)
+//     })
+// }
+// print(1,2,3,4,5,"sjhdfjs")
+
+
 //template
 
 //constructor fnction => create and object of 
@@ -12,24 +42,24 @@
 //             }
 // }
 
-function Person(name, phone, age){
-    this.name=name
-    this.phone=phone
-    this.age=age
-    this.getInfo=function(){
-                console.log(this.name)
-                console.log(this.age)
-                console.log(this.phone)
-            }
-}
+// function Person(name, phone, age){
+//     this.name=name
+//     this.phone=phone
+//     this.age=age
+//     this.getInfo=function(){
+//                 console.log(this.name)
+//                 console.log(this.age)
+//                 console.log(this.phone)
+//             }
+// }
 
-let obj  = new Person("reena","234234",34)
-let obj2 = new Person("tina", "576867",12)
-let obj3= new Person("seema", "3454354",78)
+// let obj  = new Person("reena","234234",34)
+// let obj2 = new Person("tina", "576867",12)
+// let obj3= new Person("seema", "3454354",78)
 // obj2.phone="655643"
 // obj.name="tina"
 
-console.log(obj, obj2, obj3)
+// console.log(obj, obj2, obj3)
 // console.log(obj2)
 // objects
 
