@@ -8,14 +8,14 @@ function Account(name, phone, age){
     this.phone = phone
     this.age = age
 
-    this.getInfo = function(){
-        console.log("Account info of object")
-        console.log(this.name+"==="+this.phone+"==="+this.age)
-    }
-    this.printInfo = function(){
-        console.log("Account info of object")
-        console.log(this.name+"==="+this.phone+"==="+this.age)
-    }
+    // this.getInfo = function(){
+    //     console.log("Account info of object")
+    //     console.log(this.name+"==="+this.phone+"==="+this.age)
+    // }
+    // this.printInfo = function(){
+    //     console.log("Account info of object")
+    //     console.log(this.name+"==="+this.phone+"==="+this.age)
+    // }
 }
 
 function Person(name, phone, age){
@@ -23,17 +23,21 @@ function Person(name, phone, age){
     this.phone = phone
     this.age = age
 
-    this.getInfo = function(){
-        console.log("info of object")
-        console.log(this.name+"==="+this.phone+"==="+this.age)
-    }
+    // this.getInfo = function(){
+    //     console.log("info of object")
+    //     console.log(this.name+"==="+this.phone+"==="+this.age)
+    // }
 }
 
-let obj1= new Person("ritu", "3948729",34);
 Object.prototype.getInfo2 =()=>{
     console.log("hi")
 }
+
+let obj1= new Person("ritu", "3948729",34);
+
+
 obj1.getInfo2()
+console.log(obj1)
 
 let obj2 = new Account("tina","978678",98)
 obj2.getInfo2()
