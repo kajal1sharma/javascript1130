@@ -1,46 +1,71 @@
+
+//class 
+
+class Person{
+    constructor(a,b,c){
+        this.name=a;
+        this.phone=b;
+        this.age =c;
+        this.get1 =function(){
+            console.log("inside constructor function")
+        }
+
+    }
+    get2 =function(){
+        console.log("outside constructor function")
+    }
+
+}
+
+let obj  = new Person("nita","234234",34);
+console.log(obj)
+let obj2  = new Person("tina","234234",54);
+console.log(obj2)
+
+
 //template
 
 // let arr =[1,2,3,4]
 // console.log(arr)
 
-function Account(name, phone, age){
-    this.name = name
-    this.phone = phone
-    this.age = age
+// function Account(name, phone, age){
+//     this.name = name
+//     this.phone = phone
+//     this.age = age
 
-    // this.getInfo = function(){
-    //     console.log("Account info of object")
-    //     console.log(this.name+"==="+this.phone+"==="+this.age)
-    // }
-    // this.printInfo = function(){
-    //     console.log("Account info of object")
-    //     console.log(this.name+"==="+this.phone+"==="+this.age)
-    // }
-}
+//     // this.getInfo = function(){
+//     //     console.log("Account info of object")
+//     //     console.log(this.name+"==="+this.phone+"==="+this.age)
+//     // }
+//     // this.printInfo = function(){
+//     //     console.log("Account info of object")
+//     //     console.log(this.name+"==="+this.phone+"==="+this.age)
+//     // }
+// }
 
-function Person(name, phone, age){
-    this.name = name
-    this.phone = phone
-    this.age = age
+// function Person(name, phone, age){
+//     this.name = name
+//     this.phone = phone
+//     this.age = age
 
-    // this.getInfo = function(){
-    //     console.log("info of object")
-    //     console.log(this.name+"==="+this.phone+"==="+this.age)
-    // }
-}
+//     // this.getInfo = function(){
+//     //     console.log("info of object")
+//     //     console.log(this.name+"==="+this.phone+"==="+this.age)
+//     // }
+// }
 
-Object.prototype.getInfo2 =()=>{
-    console.log("hi")
-}
+// Object.prototype.getInfo2 =()=>{
+//     console.log("hi")
+// }
 
-let obj1= new Person("ritu", "3948729",34);
+// let obj1= new Person("ritu", "3948729",34);
 
 
-obj1.getInfo2()
-console.log(obj1)
+// obj1.getInfo2()
+// console.log(obj1)
 
-let obj2 = new Account("tina","978678",98)
-obj2.getInfo2()
+// let obj2 = new Account("tina","978678",98)
+// obj2.getInfo2()
 // obj1.getInfo()
 
 
