@@ -1,26 +1,29 @@
+let obj4 = new Student("priya","324234","sdjkfsf");
+console.log(obj4)
 
-//class 
 
-class Person{
-    constructor(a,b,c){
-        this.name=a;
-        this.phone=b;
-        this.age =c;
-        this.get1 =function(){
-            console.log("inside constructor function")
-        }
+// //class 
 
-    }
-    get2 =function(){
-        console.log("outside constructor function")
-    }
+// class Person{
+//     constructor(a,b,c){
+//         this.name=a;
+//         this.phone=b;
+//         this.age =c;
+//         this.get1 =function(){
+//             console.log("inside constructor function")
+//         }
 
-}
+//     }
+//     get2 =function(){
+//         console.log("outside constructor function")
+//     }
 
-let obj  = new Person("nita","234234",34);
-console.log(obj)
-let obj2  = new Person("tina","234234",54);
-console.log(obj2)
+// }
+
+// let obj  = new Person("nita","234234",34);
+// console.log(obj)
+// let obj2  = new Person("tina","234234",54);
+// console.log(obj2)
 
 
 //template
