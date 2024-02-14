@@ -1,9 +1,3 @@
-
-
-
-
-
-
 let id=setInterval(function(){
     console.log("hello world")
 },3000)
