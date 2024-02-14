@@ -1,6 +1,6 @@
 
-let str= "         first is a place is    ";
-console.log(typeof str)
+//let str= "         first is a place is    ";
+let str = 'capitalize the first letter of each word';
 
 // console.log(str.length)
 // console.log(str.charAt(2))
