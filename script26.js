@@ -6,3 +6,5 @@
     console.log(a+b)
     console.log(c)
 })(10, 20 , "ram")
+
+
