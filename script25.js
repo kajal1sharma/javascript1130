@@ -1,15 +1,33 @@
 
-let id= setTimeout(()=>{
-    console.log("hello world")
-},10000)
-
-
-let a = prompt("get value");
-if(a==10){
-    clearTimeout(id)
+for(let i =1; i<=5 ;i++){
+    setTimeout(() => {
+        console.log(i)
+    }, 5000*i);
 }
 
 
+// let i=0;
+// let id= setInterval(()=>{
+//     i=i+1;
+//     if(i===5){
+//         clearInterval(id)
+//     }
+//     console.log(i);
+// },2000)
+
+
+
+// let id= setTimeout(()=>{
+//     console.log("hello world")
+// },10000)
+
+
+// let a = prompt("get value");
+// if(a==10){
+//     clearTimeout(id)
+// }
+
+// for 1-5 => 
 
 
 
