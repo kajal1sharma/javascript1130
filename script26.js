@@ -1,16 +1,43 @@
+// async await
 
+async function print(){
+    console.log("hello world")
+    let pro = new Promise((resolve, reject)=>{
 
+        setTimeout(() => {
+            let a=90;
+            if(a%10==0){
+                resolve(true)
+            }
+            else{
+                reject(false)
+            }
+        }, 2000);
 
-fetch("https://dummyjson.com/todos")
-.then(function(data){
-    return data.json()
-})
-.then(function(data){
+    })
+    return pro
+}
+
+let data = print();
+data.then(data=>{
     console.log(data)
 })
-.catch(function(err){
-    console.log("some error occurred")
+.catch(err=>{
+    console.log(err)
 })
+
+
+
+// fetch("https://dummyjson.com/todos")
+// .then(function(data){
+//     return data.json()
+// })
+// .then(function(data){
+//     console.log(data)
+// })
+// .catch(function(err){
+//     console.log("some error occurred")
+// })
 
 
 
