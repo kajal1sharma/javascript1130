@@ -6,10 +6,16 @@ window.addEventListener('load',function(){
 
 
     let buttonvar = this.document.getElementById("buttonpress")
-    setTimeout(() => {
-        buttonvar.style.width="500px"
-    }, 5000);
+    let para = this.document.getElementById("para");
+
+    buttonvar.addEventListener('click',function(){
+        
+        para.innerText = "the button has been clicked"
+    })
+    // setTimeout(() => {
+    //     buttonvar.style.width="500px"
+    // }, 5000);
     
-    console.log(buttonvar)
+    // console.log(buttonvar)
 
 })
