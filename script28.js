@@ -5,7 +5,7 @@
     let stopButton =document.getElementById("buttonStop");
     let resetButton =document.getElementById("buttonReset");
 
-    let intervalid=null;
+    let intervalid;
     let count=0;
     startButton.addEventListener('click',()=>{
         intervalid = setInterval(()=>{
