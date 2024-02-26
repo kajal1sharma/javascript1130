@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+
+.taskinput{
+    border:1px solid black;
+    padding:20px;
+}
+
+.taskdisplayer{
+    border:10px solid red;
+    padding:20px;
+    margin-top: 20px;
+}
