@@ -12,8 +12,20 @@ window.addEventListener('load',function(){
     })
 
     addButton.addEventListener('click',function(){
-       let para=  document.createElement('p')
+        let divtask = document.createElement('div')
+        
+        let para=  document.createElement('p')
        para.innerText= task;
-       taskcontainer.appendChild(para)
+       let buttondelete = document.createElement('button')
+       buttondelete.innerText="delete"
+       divtask.appendChild(para)
+       divtask.appendChild(buttondelete)
+
+       taskcontainer.appendChild(divtask)
+
+        buttondelete.addEventListener('click',()=>{
+            divtask.remove();
+        })
+
     })
 })
