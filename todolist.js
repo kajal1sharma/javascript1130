@@ -13,6 +13,9 @@ window.addEventListener('load',function(){
 
     addButton.addEventListener('click',function(){
         let divtask = document.createElement('div')
+        divtask.style="display:flex"
+        divtask.style.justifyContent="center"
+
         
         let para=  document.createElement('p')
        para.innerText= task;
